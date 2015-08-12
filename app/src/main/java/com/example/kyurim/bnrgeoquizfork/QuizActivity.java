@@ -55,7 +55,7 @@ public class QuizActivity extends ActionBarActivity {
       int messageResId = 0;
 
       if (mIsCheater) {                            // added for checking if the user cheated.  Getting data back from CheatActivity.
-         messageResId = R.string.judgment_toast;   // show cheating toast message.
+         messageResId = R.string.judgment_toast;      // show cheating toast message.
       } else {
          if (userPressedTrue == answerIsTrue) {
             messageResId = R.string.toast_true;
